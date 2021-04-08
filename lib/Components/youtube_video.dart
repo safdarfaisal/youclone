@@ -20,13 +20,17 @@ class YoutubeVideo extends StatelessWidget {
           ),
           Row(
             children: [
-              CircleAvatar(
-                radius: 30,
-                backgroundColor: Colors.purple,
-                child: Text(
-                  'S',
-                  style: TextStyle(
-                    fontSize: 30,
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: CircleAvatar(
+                  radius: 26,
+                  backgroundColor: Colors.purple,
+                  child: Text(
+                    'S',
+                    style: TextStyle(
+                      fontSize: 30,
+                      color: Colors.white
+                    ),
                   ),
                 ),
               ),

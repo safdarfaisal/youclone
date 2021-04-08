@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:youclone/Components/Bottom_Navigation_Bar.dart';
 import 'package:youclone/Components/topAppBar.dart';
-import 'package:youclone/Components/youtube_finite_list.dart';
+import 'package:youclone/Components/youtube_infinite_list.dart';
 import 'package:youclone/Screens/explore_page.dart';
 import 'package:youclone/Screens/library.dart';
 import 'package:youclone/Screens/notifications.dart';

@@ -14,8 +14,12 @@ class _NotificationPageState extends State<NotificationPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: TopAppBar(),
-      body: Container(
-        color: Colors.blue,
+      body: Center(
+        child: Container(
+          child: Text('No new notifications',style: TextStyle(
+            fontSize: 30,
+          ),),
+        ),
       ),
       bottomNavigationBar: BottomNavigateBar(index: widget.index),
     );

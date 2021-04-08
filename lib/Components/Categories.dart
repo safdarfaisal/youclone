@@ -13,6 +13,7 @@ class YoutubeCategories extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Container(
           decoration: BoxDecoration(
+            border: Border(),
               borderRadius: BorderRadius.all(Radius.circular(10))
           ),
           child: Text(categoryName,textAlign: TextAlign.center,),
